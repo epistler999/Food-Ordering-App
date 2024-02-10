@@ -17,7 +17,7 @@ class UserClass extends React.Component{
     // when component is loaded. We generally call api in this
     async componentDidMount(){
         console.log("component Did mount!!");
-        let data = await fetch("https://api.github.com/users/KumarBadal208");
+        let data = await fetch("https://api.github.com/users/epistler999");
         let json = await data.json();
         console.log("json",json);
         this.setState({
