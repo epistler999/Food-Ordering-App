@@ -19,9 +19,9 @@
   "author": "swapnil gupta",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KumarBadal208/react-project/issues"
+    "url": ""
   },
-  "homepage": "https://KumarBadal208.github.io/react-project",
+  "homepage": "",
   "devDependencies": {
     "gh-pages": "^6.1.1",
     "parcel": "^2.11.0",
