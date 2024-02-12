@@ -1,4 +1,4 @@
-# React Project ()
+# React Project
 
 * to use react in our project, we can use the cdn link or using npm
 * using **npm install -D parcel** install parcel. It helps in bundling and building our app. Install it in dev-depnedencies.
