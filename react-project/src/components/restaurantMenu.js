@@ -51,7 +51,7 @@ const RestaurantMenu = ()=>{
             {
                 filteredCard.map((res, index)=>(
                     <ItemCards res={res} showIndex={index===showIndex && true}
-                    setShowIndex = {()=> setShowIndex(index)} // its a callback fn passed
+                    setShowIndex = {()=> index === showIndex ? setShowIndex(null) : setShowIndex(index)} // its a callback fn passed
                     key = {index}
                     />
                 ))
